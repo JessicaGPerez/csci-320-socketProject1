@@ -69,7 +69,7 @@ def send_file(filename: str):
                 if response != b'received':
                     raise Exception('Bad server response - was not go ahead!')
 
-        # send the hash value so server can verify that the file was
+        # send the hash value so server can verify hat the file was
         # received correctly.
         # TODO: section 2 step 9 in README.md file
         file_hash = hash_object.digest()
