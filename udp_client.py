@@ -4,7 +4,7 @@ import sys  # needed to get cmd line parameters
 import os.path as path  # needed to get size of file in bytes
 
 
-IP = '127.0.0.1'  # change to the IP address of the server
+IP = '127.0.0.1'  # change to the IPaddress of the server
 PORT = 12000  # change to a desired port number
 BUFFER_SIZE = 1024  # change to a desired buffer size
 
