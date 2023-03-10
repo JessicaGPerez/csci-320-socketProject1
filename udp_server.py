@@ -59,7 +59,7 @@ def start_server():
             # TODO: section 1 step 2 in README.md file
             data, client_address = server_socket.recvfrom(BUFFER_SIZE)
             print("Received: ", data.decode())
-            # epecting a 8-byte byte string for file size follwed by file name
+            # epecting a 8-byte byte string for file size folwed by file name
             # TODO: section 1 step 3 in README.md file
             file_size = struct.unpack('q', data[:8])[0]
             file_name = data[:8].decode()

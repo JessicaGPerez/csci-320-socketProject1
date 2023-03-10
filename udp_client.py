@@ -29,7 +29,7 @@ def send_file(filename: str):
     # TODO: section 2 step 3 in README.md file
     file_size_str = file_size.to_bytes(8, byteorder='big')
 
-    # create a SHA256 object to generate hash of file
+    # create a SHA256 object to generate hash o file
     # TODO: section 2 step 4 in README.md file
     hash_object = hashlib.sha256()
     with open(filename, 'rb') as file:
