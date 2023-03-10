@@ -1,7 +1,7 @@
 import socket
 import hashlib  # needed to calculate the SHA256 hash of the file
 import sys  # needed to get cmd line parameters
-import os.path as path  # needed to get size of file in bytes
+import os.path as path  # neededto get size of file in bytes
 
 
 IP = '127.0.0.1'  # chnge to the IPaddress of the server
